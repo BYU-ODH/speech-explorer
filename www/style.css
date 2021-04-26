@@ -1,0 +1,17 @@
+/* Make text visible on inputs */
+.shiny-input-panel {
+  margin: 5px 15px 0;
+  background-color: white;
+  background-color: rgba(100, 100, 100, 0);
+  border: none;
+}
+
+.control-label {
+  font-weight: 300;
+  padding-left: .5em;
+}
+
+.navbar-static-top {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}

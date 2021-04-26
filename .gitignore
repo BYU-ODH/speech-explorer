@@ -37,3 +37,12 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# Ignore Data
+!data/computed/README.md
+!data/corpora/README.md
+!data/demographics/README.md
+!data/directories/README.md
+
+# Ignore logs
+!logs/README.md
