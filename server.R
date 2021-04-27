@@ -3,14 +3,10 @@ library(tidyverse)
 library(lubridate)
 library(vroom)
 library(callr)
-source('./scripts/utils.r')
+source('./scripts/utils.R')
 
 # List of Corpora
 corpora <- get_corpora_names()
-
-# Instantiate Map
-states_map <- map_data("state")
-
 
 #####################################
 ###            SERVER             ###

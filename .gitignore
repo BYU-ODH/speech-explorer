@@ -2,6 +2,9 @@
 .Rhistory
 .Rapp.history
 
+# Mac Files
+.DS_Store
+
 # Session Data files
 .RData
 
@@ -19,6 +22,9 @@
 
 # RStudio files
 .Rproj.user/
+
+# Ignore project file
+.Rproj
 
 # produced vignettes
 vignettes/*.html
@@ -39,10 +45,12 @@ vignettes/*.pdf
 .Renviron
 
 # Ignore Data
-!data/computed/README.md
-!data/corpora/README.md
-!data/demographics/README.md
-!data/directories/README.md
+data/computed/*
+data/corpora/*
+data/demographics/**.csv
+data/dictionaries/**.dic
+data/dictionaries/**.csv
+
 
 # Ignore logs
 !logs/README.md
